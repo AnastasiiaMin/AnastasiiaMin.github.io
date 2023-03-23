@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 150 of /Users/anastasiaminkina/Desktop/uber/crs/sass/style.sass
+
+145: 	background: #000000 
+146: 	font-weight: 300 
+147: 	font-size: 11px 
+148: 	text-transform: uppercase 
+149: 	color: #FFFFFF 
+150:     text-align: center
+151: .title 
+152: 	margin-bottom: 0 
+153: 	margin-top: 38px 
+154: 	color: #222222 
+155: 	font-size: 38px 
+
+Backtrace:
+/Users/anastasiaminkina/Desktop/uber/crs/sass/style.sass:150
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 150 of /Users/anastasiaminkina/Desktop/uber/crs/sass/style.sass\A \A 145: 	background: #000000 \A 146: 	font-weight: 300 \A 147: 	font-size: 11px \A 148: 	text-transform: uppercase \A 149: 	color: #FFFFFF \A 150:     text-align: center\A 151: .title \A 152: 	margin-bottom: 0 \A 153: 	margin-top: 38px \A 154: 	color: #222222 \A 155: 	font-size: 38px "; }
